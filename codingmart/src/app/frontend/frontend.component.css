@@ -1,0 +1,120 @@
+
+form
+{
+    background-color:whitesmoke;
+    border:1px solid black;
+    border-radius: 5px;
+    margin-left:30%;
+    margin-right:30%;
+    margin-top: 5%;
+    padding:5px;
+    position:fixed;
+    color:black;
+}
+h1{
+    text-align: center;
+    color:black;
+}
+label{
+    font-size: 20px;
+    margin-left:90px;
+}
+button{
+    margin-left: 200px;
+    padding:10px;
+    width:20%;
+    color:rgb(15, 15, 15);
+    background-color:rgb(57, 114, 57);
+    border:none;
+    border-radius:5px;
+}
+.c1
+{
+    border:3px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding:5px;
+}
+h3{
+    margin-left:5px;
+    font-size:22px;
+}
+input[type='radio']:after {
+    width: 10px;
+    height: 12px;
+    border-radius: 10px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #9fa39f;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid rgb(68, 55, 55);
+}
+
+input[type='radio']:checked:after {
+    width: 10px;
+    height: 12px;
+    border-radius: 10px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #00ff15;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+input{
+    outline:none;
+    background-color:transparent;
+    border:none;
+    border-bottom:1px solid black;
+    font-size:18px;
+}
+
+@media screen and (max-width: 1200px) and (min-width:400px){
+   
+    form{
+      width:50%;
+      margin-left:20%;
+      margin-right:auto; 
+    }
+    h1{
+        text-align:center;
+    }
+    input[type='radio'],#radiobox 
+    {
+        display:flex;
+        flex-wrap: nowrap;
+    }
+    label
+    {
+        display:flex;
+        flex-wrap:none;
+    }
+    #id1{
+        margin-left:50%;
+        margin-right:20%;
+    }
+    #id2
+    {
+        margin-left:50%;
+        margin-right:16%;
+    }
+    #id3
+    {
+        margin-left:50%;
+        margin-right:15%;
+    }
+    button
+    {
+        margin-left:45%;
+    }
+    .scroll
+    {
+        max-height: 600px;
+        overflow-y: scroll;
+    }
+}

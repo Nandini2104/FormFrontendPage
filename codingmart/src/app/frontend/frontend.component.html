@@ -1,0 +1,38 @@
+<!-- <p>frontend works!</p> -->
+    <div>
+        <div class=container>
+            <form action="/frontend" class="scroll">
+                <h1>FORM</h1>
+            <label for="disname" name="name">District Name</label>
+            <span id="id1" style="margin-left:10px;"></span>
+            <input type="text" required><br><br>
+            <label for="area" name="areasq">Area(sq mt) </label>
+            <span id="id2" style="margin-left:22px;"></span>
+            <input (keypress)="keyPress($event)" minlength="8" maxlength="15" required ><br><br>
+            <label for="population" name="pop">Popoulation</label>
+            <span id="id3" style="margin-left:27px;"></span>
+            <input (keypress)="keyPress($event)" minlength="8" maxlength="15" required><br><br>
+            <button type="Submit">Save</button><br><br>
+            <div class=c1>
+                <h3>Biggest District(Area Wise)</h3>
+                <input type="radio" name="city"/><span id="radiobox" style="font-size:20px;">Chennai</span>
+                <span style="margin-right:25px;"></span>
+                <input type="radio" name="city"/><span id="radiobox" style="font-size:20px;">Coimbatore</span>
+                <span style="margin-right:25px;"></span>
+                <input type="radio" name="city"/><span id="radiobox" style="font-size:20px;">Salem</span>
+                <span style="margin-right:25px;"></span>
+            </div><br>
+            <div class=c1>
+                <h3>Highly Populated District</h3>
+                <input type="radio" name="city1"/><span id="radiobox" style="font-size:20px;">Chennai</span>
+                <span style="margin-right:25px;"></span>
+                <input type="radio" name="city1"/><span id="radiobox" style="font-size:20px;">Coimbatore</span>
+                <span style="margin-right:25px;"></span>
+                <input type="radio" name="city1"/><span id="radiobox" style="font-size:20px;">Salem</span>
+                <span style="margin-right:25px;"></span>
+            </div><br>
+        </form>
+    </div>
+</div>
+
+    
